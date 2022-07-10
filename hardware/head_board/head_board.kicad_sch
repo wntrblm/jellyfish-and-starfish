@@ -995,11 +995,8 @@
     (path "/7451b511-52df-4ce8-be02-a648b8918dc5/89de13b1-e66e-444a-96ed-de628b63ff72"
       (reference "C1") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
-    (path "/7451b511-52df-4ce8-be02-a648b8918dc5/b528ccfc-3893-460d-9058-0b7d610d7c7f"
-      (reference "C2") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
-    )
-    (path "/7451b511-52df-4ce8-be02-a648b8918dc5/546031df-933b-44b4-a604-0ce660156744"
-      (reference "C3") (unit 1) (value "220u") (footprint "Capacitor_SMD:CP_Elec_6.3x7.7")
+    (path "/7451b511-52df-4ce8-be02-a648b8918dc5/857d4152-0ed4-4552-a40c-b0cb6d9dee66"
+      (reference "C2") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/7451b511-52df-4ce8-be02-a648b8918dc5/7816dfbf-f146-442b-b66f-b8c94248dc0a"
       (reference "C4") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
@@ -1184,18 +1181,6 @@
     (path "/aa8143aa-2883-4d76-a29f-9f8c766e6074/e70bde0d-59d6-4b15-a86d-8c5fa589c179"
       (reference "C64") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
     )
-    (path "/7451b511-52df-4ce8-be02-a648b8918dc5/dec603ea-39fd-4cc1-a2fc-8d8d1d7a4b90"
-      (reference "C65") (unit 1) (value "15p") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
-    )
-    (path "/7451b511-52df-4ce8-be02-a648b8918dc5/d7690810-0775-4080-86de-54a38ec5274c"
-      (reference "C66") (unit 1) (value "22n") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
-    )
-    (path "/7451b511-52df-4ce8-be02-a648b8918dc5/8d1e67b5-68c4-4e30-85ad-af93a69b9d97"
-      (reference "C67") (unit 1) (value "22n") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
-    )
-    (path "/7451b511-52df-4ce8-be02-a648b8918dc5/b8650e93-4aee-4d8c-8e8c-36113ef0e8ce"
-      (reference "D1") (unit 1) (value "40V/2A") (footprint "winterbloom:DIODE_SOD-123_SOD-123F")
-    )
     (path "/7451b511-52df-4ce8-be02-a648b8918dc5/a220092b-fe6d-47cd-bb57-841a4d2b4fb0"
       (reference "D2") (unit 1) (value "24V") (footprint "winterbloom:LED_0805_Kingbright_APT2012")
     )
@@ -1226,15 +1211,6 @@
     (path "/083febe4-82c8-4050-9fef-44dec251aaa3/0e136ba1-e414-4e36-aaf1-f1ea98503467"
       (reference "J6") (unit 1) (value "CAMLED") (footprint "Connector_JST:JST_XH_B3B-XH-AM_1x03_P2.50mm_Vertical")
     )
-    (path "/7451b511-52df-4ce8-be02-a648b8918dc5/c18a4757-43e8-41aa-86e7-300f3e7b1b44"
-      (reference "L1") (unit 1) (value "22uH") (footprint "winterbloom:L_Murata_1255AY-220M-P3")
-    )
-    (path "/7451b511-52df-4ce8-be02-a648b8918dc5/ee175e4f-396c-4780-9639-f29ba59087bc"
-      (reference "R1") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
-    )
-    (path "/7451b511-52df-4ce8-be02-a648b8918dc5/7dadd97d-3587-4f1b-9a4b-501b85a17544"
-      (reference "R2") (unit 1) (value "1.91k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
-    )
     (path "/aa8143aa-2883-4d76-a29f-9f8c766e6074/de98b83b-9a50-456d-bdd8-d9d1023df843"
       (reference "R3") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
@@ -1243,9 +1219,6 @@
     )
     (path "/7451b511-52df-4ce8-be02-a648b8918dc5/81363696-b813-41ed-a9f0-f1e8348d9078"
       (reference "R5") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-    )
-    (path "/7451b511-52df-4ce8-be02-a648b8918dc5/116e7ebf-8d90-4392-8ff4-a4ecd568bb72"
-      (reference "R6") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
     (path "/aa8143aa-2883-4d76-a29f-9f8c766e6074/47f6577e-1137-4b33-94c2-73b5f2b265cb"
       (reference "R8") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
@@ -1349,8 +1322,8 @@
     (path "/aa8143aa-2883-4d76-a29f-9f8c766e6074/d23cd565-ea5a-4507-99e5-f91188c1ec8a"
       (reference "TP22") (unit 1) (value "AUX") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
-    (path "/7451b511-52df-4ce8-be02-a648b8918dc5/f7e4db27-8985-406f-9cbd-5f6bf6f3b40f"
-      (reference "U1") (unit 1) (value "TPS54233") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+    (path "/7451b511-52df-4ce8-be02-a648b8918dc5/6b5fc157-2b09-4462-a08c-fbae66bf25cd"
+      (reference "U1") (unit 1) (value "P78E05-1000") (footprint "winterbloom:Converter_DCDC_CUI_P78E-1000_THT")
     )
     (path "/7451b511-52df-4ce8-be02-a648b8918dc5/d1fa9c2e-24b9-4587-8384-7513c5171833"
       (reference "U2") (unit 1) (value "MIC5317-3.3") (footprint "Package_TO_SOT_SMD:SOT-23-5")
