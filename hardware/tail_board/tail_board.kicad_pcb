@@ -4,7 +4,7 @@
     (thickness 1.6)
   )
 
-  (paper "USLetter")
+  (paper "USLetter" portrait)
   (title_block
     (title "Candela tail")
     (date "2022-07-08")
