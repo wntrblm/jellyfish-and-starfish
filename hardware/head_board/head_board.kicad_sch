@@ -1357,22 +1357,22 @@
       (reference "H3") (unit 1) (value "GND") (footprint "MountingHole:MountingHole_3mm_Pad")
     )
     (path "/083febe4-82c8-4050-9fef-44dec251aaa3/a244f85d-1c1b-4aeb-bf83-9dbd64bba84d"
-      (reference "J1") (unit 1) (value "INS") (footprint "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical")
+      (reference "J1") (unit 1) (value "INS") (footprint "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal")
     )
     (path "/083febe4-82c8-4050-9fef-44dec251aaa3/aaa277e7-b616-4ab6-a04d-3cce395e8899"
       (reference "J2") (unit 1) (value "8P8C_LED_Shielded") (footprint "winterbloom:RJ45_Amphenol_RJE45-188-1411_Vertical")
     )
     (path "/083febe4-82c8-4050-9fef-44dec251aaa3/581564b6-2e9b-4c15-b56a-5374dfe101a3"
-      (reference "J3") (unit 1) (value "CAM") (footprint "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical")
+      (reference "J3") (unit 1) (value "CAM") (footprint "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal")
     )
     (path "/083febe4-82c8-4050-9fef-44dec251aaa3/b15eab17-d7b8-4094-83d3-5ed5f6c31acf"
-      (reference "J4") (unit 1) (value "CAMLED") (footprint "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical")
+      (reference "J4") (unit 1) (value "CAMLED") (footprint "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal")
     )
     (path "/083febe4-82c8-4050-9fef-44dec251aaa3/7c7ae062-8745-44e1-838d-1f8bb71d85d7"
-      (reference "J5") (unit 1) (value "OUT1") (footprint "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical")
+      (reference "J5") (unit 1) (value "OUT1") (footprint "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal")
     )
     (path "/083febe4-82c8-4050-9fef-44dec251aaa3/8c07fa73-f391-490d-89e9-53fde04dd5f6"
-      (reference "J6") (unit 1) (value "BLTOUCH") (footprint "Connector_JST:JST_SH_BM05B-SRSS-TB_1x05-1MP_P1.00mm_Vertical")
+      (reference "J6") (unit 1) (value "BLTOUCH") (footprint "Connector_JST:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal")
     )
     (path "/c575deae-8ced-46f2-bc3a-3b628629a6b2/a8b262bb-f4e2-450c-b7f7-b4e764fc78f2"
       (reference "J7") (unit 1) (value "MOTOR") (footprint "Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical")
@@ -1384,7 +1384,7 @@
       (reference "J9") (unit 1) (value "MOTOR") (footprint "Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical")
     )
     (path "/083febe4-82c8-4050-9fef-44dec251aaa3/62016de5-53c8-4ef5-9f2c-ff5c82ce42e6"
-      (reference "J10") (unit 1) (value "Stemma QT") (footprint "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical")
+      (reference "J10") (unit 1) (value "Stemma QT") (footprint "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal")
     )
     (path "/083febe4-82c8-4050-9fef-44dec251aaa3/d782328f-0b0a-44fb-9948-56d3444f0f4c"
       (reference "R1") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
