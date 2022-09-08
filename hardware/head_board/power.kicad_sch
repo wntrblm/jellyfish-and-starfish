@@ -5,12 +5,13 @@
   (paper "USLetter")
 
   (title_block
-    (title "Candela Head")
-    (date "2022-07-27")
-    (rev "v1")
+    (title "Jellyfish")
+    (date "2022-09-07")
+    (rev "v2")
     (company "Winterbloom")
     (comment 1 "Alethea Flowers")
     (comment 2 "CERN-OHL-P V2")
+    (comment 3 "jellyfish.wntr.dev")
   )
 
   (lib_symbols
@@ -974,6 +975,10 @@
   (label "3V3" (at 61.595 96.52 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 025a061c-3aa3-4703-ad4a-7041b4880218)
+  )
+  (label "VIN_FILTERED" (at 131.445 43.815 0)
+    (effects (font (size 0.64 0.64)) (justify left bottom))
+    (uuid 535ebf3a-35d1-4d71-9cd0-7e33ed76d8a4)
   )
 
   (global_label "VMOTOR" (shape input) (at 146.05 95.885 0) (fields_autoplaced)
