@@ -542,16 +542,52 @@
       "Connections"
     ],
     [
+      "45d37fd1-0638-4c5c-bfff-47de2f816c34",
+      "I2C Multiplexer"
+    ],
+    [
+      "d8c99904-d50b-4476-ad9b-bd27fa1b76a9",
+      "Vacuum sensor A"
+    ],
+    [
+      "622a9b40-04f7-422b-85d7-5fd55b844e66",
+      "Vacuum sensor B"
+    ],
+    [
+      "c64b48c7-9452-4262-b23b-d6ff007e6a56",
+      "RS485"
+    ],
+    [
+      "06e5b0ba-3c8a-44e1-803a-619899eaa2d0",
+      "Buffer"
+    ],
+    [
+      "7714833a-1612-4d6c-93b2-2eddf16013ae",
+      "Pump A"
+    ],
+    [
+      "f64cb091-ee58-4922-ad69-e2640bf2e714",
+      "Pump B"
+    ],
+    [
+      "4f479ba0-2e12-436e-9929-9f179348d9cc",
+      "Valve A"
+    ],
+    [
+      "d47fa919-cc40-4657-a812-8ff93e0fa61d",
+      "Valve B"
+    ],
+    [
       "c575deae-8ced-46f2-bc3a-3b628629a6b2",
-      "Left Motor"
+      "X Motor"
     ],
     [
       "05e5c053-297f-413a-9bc6-84d4e29b0d61",
-      "Z Motor"
+      "Y1 Motor"
     ],
     [
       "1af6990b-3ebc-4a0b-a22e-e64f28b4c017",
-      "Right Motor"
+      "Y2 Motor"
     ]
   ],
   "text_variables": {}
