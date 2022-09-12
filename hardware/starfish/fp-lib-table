@@ -1,3 +1,2 @@
 (fp_lib_table
-  (lib (name "board")(type "KiCad")(uri "${KIPRJMOD}/footprints")(options "")(descr ""))
 )
