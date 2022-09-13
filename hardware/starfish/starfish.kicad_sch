@@ -1556,10 +1556,10 @@
       (reference "C206") (unit 1) (value "4u7") (footprint "winterbloom:C_0805_HandSolder")
     )
     (path "/7451b511-52df-4ce8-be02-a648b8918dc5/89de13b1-e66e-444a-96ed-de628b63ff72"
-      (reference "C207") (unit 1) (value "22u") (footprint "winterbloom:C_0805_HandSolder")
+      (reference "C207") (unit 1) (value "10u") (footprint "winterbloom:C_1210_HandSolder")
     )
     (path "/7451b511-52df-4ce8-be02-a648b8918dc5/857d4152-0ed4-4552-a40c-b0cb6d9dee66"
-      (reference "C208") (unit 1) (value "22u") (footprint "winterbloom:C_0805_HandSolder")
+      (reference "C208") (unit 1) (value "10u") (footprint "winterbloom:C_1210_HandSolder")
     )
     (path "/7451b511-52df-4ce8-be02-a648b8918dc5/7816dfbf-f146-442b-b66f-b8c94248dc0a"
       (reference "C209") (unit 1) (value "1u") (footprint "winterbloom:C_0402_HandSolder")
@@ -1568,7 +1568,7 @@
       (reference "C210") (unit 1) (value "1u") (footprint "winterbloom:C_0402_HandSolder")
     )
     (path "/aa8143aa-2883-4d76-a29f-9f8c766e6074/6f4cd72b-7d13-40f5-b447-bb54b818bbf7"
-      (reference "C301") (unit 1) (value "10u") (footprint "winterbloom:C_0805_HandSolder")
+      (reference "C301") (unit 1) (value "4u7") (footprint "winterbloom:C_0805_HandSolder")
     )
     (path "/aa8143aa-2883-4d76-a29f-9f8c766e6074/91a14eae-6eb9-482f-8483-d179f4ae57d7"
       (reference "C302") (unit 1) (value "100n") (footprint "winterbloom:C_0402_HandSolder")
