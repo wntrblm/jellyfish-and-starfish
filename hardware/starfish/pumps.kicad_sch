@@ -745,7 +745,7 @@
     (property "Value" "PMEG3030EP" (id 1) (at 148.59 80.3274 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-128" (id 2) (at 146.05 80.645 0)
+    (property "Footprint" "winterbloom:D_SOD-128" (id 2) (at 146.05 80.645 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PMEG3030EP-115/2228693" (id 3) (at 146.05 80.645 0)

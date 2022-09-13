@@ -1739,7 +1739,7 @@
     (property "Value" "SMAJ28A" (id 1) (at 95.25 55.2449 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Diode_SMD:D_SMA" (id 2) (at 92.71 55.245 0)
+    (property "Footprint" "winterbloom:D_SMA" (id 2) (at 92.71 55.245 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 92.71 55.245 0)
