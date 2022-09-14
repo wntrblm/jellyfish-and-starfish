@@ -21748,24 +21748,6 @@
   (gr_circle (center 102.5 60.9) (end 103 60.9) (layer "F.SilkS") (width 0.12) (fill solid) (tstamp af45491a-80e0-4812-9f29-104f13f42842))
   (gr_circle (center 108 97.5) (end 108.5 97.5) (layer "F.SilkS") (width 0.12) (fill solid) (tstamp bb0cc198-2ad7-4595-a5e1-f9e73c0b4bcb))
   (gr_circle (center 87.25 72) (end 87.75 72) (layer "F.SilkS") (width 0.12) (fill solid) (tstamp e12bf1a1-ce07-45dd-948f-4d82bb0ea5c0))
-  (gr_poly
-    (pts
-      (xy 71.871734 192.63266)
-      (xy 68.3362 196.168194)
-      (xy 64.022848 191.854843)
-      (xy 67.629093 188.248598)
-      (xy 70.669652 188.319309)
-      (xy 72.083866 189.733523)
-    ) (layer "B.Mask") (width 0.1) (fill solid) (tstamp 98663aac-2f60-4614-8e4c-9acd4fac7c49))
-  (gr_poly
-    (pts
-      (xy 46.937511 188.466279)
-      (xy 50.473045 192.001812)
-      (xy 46.159693 196.315164)
-      (xy 42.553449 192.708919)
-      (xy 42.624159 189.66836)
-      (xy 44.038373 188.254146)
-    ) (layer "B.Mask") (width 0.1) (fill solid) (tstamp b9147bcf-233a-47c2-a1ea-a5ab73cc9390))
   (gr_line locked (start 60.3 125.9066) (end 60.3 81.7411) (layer "Eco2.User") (width 0.2) (tstamp 017d9f8e-0bf1-4844-9d57-7d15b24b8a49))
   (gr_line locked (start 143.0019 135.6961) (end 149.5981 127.835) (layer "Eco2.User") (width 0.2) (tstamp 02c04ded-0636-4bcd-8323-8215cdca34c4))
   (gr_arc locked (start 60.3 81.7411) (mid 60.528361 80.59305) (end 61.17868 79.61978) (layer "Eco2.User") (width 0.2) (tstamp 0f0d2610-142a-4cd2-a7b8-fd699868e568))
