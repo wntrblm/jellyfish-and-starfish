@@ -7974,7 +7974,7 @@
         (xy -2.30759 -2.52799)
         (xy -2.24 -2.56)
         (xy 2.24 -2.56)
-      ) (layer "F.SilkS") (width 0) (fill solid) (tstamp 8fb69da6-33e4-11ed-b2da-7a0c86e760e0))
+      ) (layer "F.SilkS") (width 0) (fill solid) (tstamp 72e651f7-aa50-45d9-9bab-f44adc63ef6c))
   )
 
   (footprint "winterbloom:USB_B_Receptacle_Horizontal" (layer "F.Cu")
@@ -8239,14 +8239,14 @@
       (net 17 "/BTM_CAM_D+") (pinfunction "Pin_3") (pintype "passive") (tstamp 7080b40e-796a-4b8f-868f-5c07963cd01d))
     (pad "4" smd roundrect (at 1.5 -2) (size 0.6 1.55) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 15 "Net-(J6-Pad4)") (pinfunction "Pin_4") (pintype "passive") (tstamp eb8bd619-a72b-4bba-a14d-82eca96ad185))
-    (pad "MP" smd roundrect (at -2.8 1.875) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "MP" smd roundrect (at -2.8 1.875) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
       (net 15 "Net-(J6-Pad4)") (pinfunction "MountPin") (pintype "passive") (tstamp 4038962a-8c27-4ffe-b3f1-8b2f9e6ba1de))
-    (pad "MP" smd roundrect (at 2.8 1.875) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "MP" smd roundrect (at 2.8 1.875) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
       (net 15 "Net-(J6-Pad4)") (pinfunction "MountPin") (pintype "passive") (tstamp c63ff062-f777-43af-9986-d1aca1e611eb))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal.wrl"
-      (offset (xyz 0 0 0))
+    (model "${WINTERBLOOM3DMOD}/JST-SH-SM04B-SRSS-TB.step"
+      (offset (xyz 0 1.5 -0.4))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
