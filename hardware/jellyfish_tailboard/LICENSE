@@ -1,17 +1,11 @@
 Copyright (c) Winterbloom / Alethea Katherine Flowers 2020.
 
-This source describes Open Hardware and is licensed under the CERN-OHL-P
-v2. This notice must be included with any derivative works.
+This source describes Open Hardware and is licensed under the CERN-OHL-S v2. You may redistribute and modify this source and make products using it under the terms of the CERN-OHL-S v2 (https://ohwr.org/cern_ohl_s_v2.txt).
 
-You may redistribute and modify this documentation and make products
-using it under the terms of the CERN-OHL-P v2 (https:/cern.ch/cern-ohl)
+This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-S v2 for applicable conditions.
 
-This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED
-WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY
-AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-P v2
-for applicable conditions.
+Source Location: https://github.com/wntrblm/jellyfish-and-starfish
 
-Winterbloom branding & logo are Copyright (c) Winterbloom /
-Alethea Katherine Flowers 2020 and all rights are reserved. You may not make
-products bearing the Winterbloom logo. Derivative works should remove
-Winterbloom branding.
+As per CERN-OHL-S v2 section 4, should You produce hardware based on this source, You must where practicable maintain the Source Location visible on products you make using this source.
+
+Winterbloom branding & logo are Copyright (c) Winterbloom LLC  & Alethea Katherine Flowers 2020 and all rights are reserved. You may not make products bearing the Winterbloom logo. Derivative works should remove Winterbloom branding.
