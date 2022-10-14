@@ -6,11 +6,11 @@
 
   (title_block
     (title "Jellyfish")
-    (date "2022-09-07")
-    (rev "v2")
+    (date "2022-10-14")
+    (rev "v1")
     (company "Winterbloom")
     (comment 1 "Alethea Flowers")
-    (comment 2 "CERN-OHL-P V2")
+    (comment 2 "CERN-OHL-S V2")
     (comment 3 "jellyfish.wntr.dev")
   )
 
@@ -916,7 +916,6 @@
       )
     )
   )
-
 
   (junction (at 207.01 96.52) (diameter 0) (color 0 0 0 0)
     (uuid 0650c6c5-fcca-459c-82ef-4388c8242b9d)

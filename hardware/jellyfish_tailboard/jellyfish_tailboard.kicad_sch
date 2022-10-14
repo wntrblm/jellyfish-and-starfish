@@ -6,11 +6,11 @@
 
   (title_block
     (title "Jellyfish Tailboard")
-    (date "2022-09-14")
+    (date "2022-10-14")
     (rev "v1")
     (company "Winterbloom")
     (comment 1 "Alethea Flowers")
-    (comment 2 "CERN-OHL-P V2")
+    (comment 2 "CERN-OHL-S V2")
     (comment 3 "jellyfish.wntr.dev")
   )
 

@@ -5,12 +5,12 @@
   (paper "USLetter")
 
   (title_block
-    (title "Candela Head")
-    (date "2022-07-27")
+    (title "Jellyfish")
+    (date "2022-10-14")
     (rev "v1")
     (company "Winterbloom")
     (comment 1 "Alethea Flowers")
-    (comment 2 "CERN-OHL-P V2")
+    (comment 2 "CERN-OHL-S V2")
   )
 
   (lib_symbols
