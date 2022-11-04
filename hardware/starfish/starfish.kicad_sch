@@ -1775,7 +1775,7 @@
       (reference "C1614") (unit 1) (value "100n") (footprint "winterbloom:C_0603_HandSolder")
     )
     (path "/7451b511-52df-4ce8-be02-a648b8918dc5/4d2940a5-def0-48cd-b19d-b140c12da7b7"
-      (reference "D201") (unit 1) (value "SMAJ28A") (footprint "winterbloom:D_SMA")
+      (reference "D201") (unit 1) (value "SMAJ28CA") (footprint "winterbloom:D_SMA")
     )
     (path "/7451b511-52df-4ce8-be02-a648b8918dc5/a400efe2-94b2-49ff-bd54-fcaeff41b6ee"
       (reference "D202") (unit 1) (value "PDZ16BGWJ") (footprint "winterbloom:D_SOD-123")
@@ -1796,16 +1796,16 @@
       (reference "D302") (unit 1) (value "Aux") (footprint "winterbloom:LED_0805_Kingbright_APT2012")
     )
     (path "/083febe4-82c8-4050-9fef-44dec251aaa3/46cfd1c9-6d9d-45b9-aeef-a68de57009d2"
-      (reference "D401") (unit 1) (value "PESD5V") (footprint "winterbloom:D_SOD-323")
+      (reference "D401") (unit 1) (value "PESD3V3") (footprint "winterbloom:D_SOD-323")
     )
     (path "/083febe4-82c8-4050-9fef-44dec251aaa3/028335ed-7f52-471e-8f9e-3cd4cdfc6f6c"
-      (reference "D402") (unit 1) (value "PESD5V") (footprint "winterbloom:D_SOD-323")
+      (reference "D402") (unit 1) (value "PESD3V3") (footprint "winterbloom:D_SOD-323")
     )
     (path "/083febe4-82c8-4050-9fef-44dec251aaa3/43481899-76c2-46aa-8c42-c154031c5ca4"
-      (reference "D403") (unit 1) (value "PESD5V") (footprint "winterbloom:D_SOD-323")
+      (reference "D403") (unit 1) (value "PESD3V3") (footprint "winterbloom:D_SOD-323")
     )
     (path "/083febe4-82c8-4050-9fef-44dec251aaa3/3aaa3337-626d-4597-8abe-08717e38dd57"
-      (reference "D404") (unit 1) (value "PESD5V") (footprint "winterbloom:D_SOD-323")
+      (reference "D404") (unit 1) (value "PESD3V3") (footprint "winterbloom:D_SOD-323")
     )
     (path "/083febe4-82c8-4050-9fef-44dec251aaa3/5eb16bbd-5dd4-4fcb-ae79-fc1f991bd02a"
       (reference "D405") (unit 1) (value "PMEG2005EGWJ") (footprint "winterbloom:D_SOD-123")
@@ -1949,10 +1949,10 @@
       (reference "Q201") (unit 1) (value "DMP3037LSS-13") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/7714833a-1612-4d6c-93b2-2eddf16013ae/fde30968-7789-4997-aefb-f636b4723268"
-      (reference "Q1001") (unit 1) (value "PSMN011-30YLC") (footprint "Package_TO_SOT_SMD:LFPAK56")
+      (reference "Q1001") (unit 1) (value "BUK9Y40-55B") (footprint "Package_TO_SOT_SMD:LFPAK56")
     )
     (path "/f64cb091-ee58-4922-ad69-e2640bf2e714/fde30968-7789-4997-aefb-f636b4723268"
-      (reference "Q1101") (unit 1) (value "PSMN011-30YLC") (footprint "Package_TO_SOT_SMD:LFPAK56")
+      (reference "Q1101") (unit 1) (value "BUK9Y40-55B") (footprint "Package_TO_SOT_SMD:LFPAK56")
     )
     (path "/7451b511-52df-4ce8-be02-a648b8918dc5/d63fea5f-8835-4110-96ef-5fede0697a02"
       (reference "R201") (unit 1) (value "47k") (footprint "winterbloom:R_0402_HandSolder")
@@ -2006,10 +2006,10 @@
       (reference "R402") (unit 1) (value "10k") (footprint "winterbloom:R_0402_HandSolder")
     )
     (path "/083febe4-82c8-4050-9fef-44dec251aaa3/bdf4bcf2-efb0-468c-bfba-f717de49443a"
-      (reference "R403") (unit 1) (value "120R") (footprint "winterbloom:R_0402_HandSolder")
+      (reference "R403") (unit 1) (value "1k") (footprint "winterbloom:R_0402_HandSolder")
     )
     (path "/083febe4-82c8-4050-9fef-44dec251aaa3/313bc548-4ba9-4931-be58-c6956e9a7443"
-      (reference "R404") (unit 1) (value "120R") (footprint "winterbloom:R_0402_HandSolder")
+      (reference "R404") (unit 1) (value "1k") (footprint "winterbloom:R_0402_HandSolder")
     )
     (path "/083febe4-82c8-4050-9fef-44dec251aaa3/11826c6b-f54a-4d45-b65c-b4c362e3eafe"
       (reference "R405") (unit 1) (value "1k") (footprint "winterbloom:R_0402_HandSolder")
