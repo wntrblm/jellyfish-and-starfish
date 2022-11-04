@@ -2181,7 +2181,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 923d521f-874f-44be-933a-2183b5868fdb)
   )
-  (hierarchical_label "TMC_UART" (shape input) (at 142.875 103.505 0)
+  (hierarchical_label "TMC_UART" (shape bidirectional) (at 142.875 103.505 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 9ac3e6c0-31fc-4e4e-b239-e15e60b6640b)
   )
