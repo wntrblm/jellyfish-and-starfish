@@ -577,11 +577,11 @@
   )
 
   (label "RS-485+" (at 165.735 99.06 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (effects (font (size 0.64 0.64)) (justify right bottom))
     (uuid 45cc9f8a-4a6b-402c-97a6-c34750136e1d)
   )
   (label "RS-485-" (at 165.735 114.3 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (effects (font (size 0.64 0.64)) (justify right bottom))
     (uuid eb7a14d4-ca9b-43ff-9fcb-960068aa4e21)
   )
 
