@@ -6,8 +6,8 @@
 
   (title_block
     (title "Starfish")
-    (date "2022-10-14")
-    (rev "v0")
+    (date "2022-12-06")
+    (rev "v1")
     (company "Winterbloom")
     (comment 1 "Alethea Flowers")
     (comment 2 "CERN-OHL-S V2")
@@ -163,10 +163,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 09fea2b6-aee2-40c8-8542-15624014cb4c)
   )
-  (wire (pts (xy 107.95 83.82) (xy 121.285 83.82))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 0a6b1fea-94fa-4c61-9b10-7b0caedcdf6f)
-  )
   (wire (pts (xy 147.955 132.08) (xy 150.495 132.08))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 0c9a767d-2adc-437f-a557-b2c06d4717c6)
@@ -216,6 +212,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 38fc179b-68c6-4c52-9913-097c867cda9c)
   )
+  (wire (pts (xy 147.955 83.185) (xy 159.385 83.185))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 395a8218-19c3-4bc8-89df-6ff5be0e21ae)
+  )
   (wire (pts (xy 253.365 163.195) (xy 243.84 163.195))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 396a0011-55e7-4633-9ce7-0694ba349237)
@@ -247,10 +247,6 @@
   (wire (pts (xy 21.59 136.525) (xy 29.21 136.525))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 50225083-a300-41a2-8717-96125350d59a)
-  )
-  (wire (pts (xy 107.95 65.405) (xy 121.285 65.405))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 563e1bf7-5166-42fb-bd40-0ecab42cafe3)
   )
   (wire (pts (xy 29.21 82.55) (xy 19.685 82.55))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -362,9 +358,17 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid a565c187-6868-4427-b86e-0e13bd4be549)
   )
+  (wire (pts (xy 107.95 73.025) (xy 121.92 73.025))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid a608eb2c-954f-46eb-b0ed-00f8f567e7c0)
+  )
   (wire (pts (xy 147.955 101.6) (xy 150.495 101.6))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid a63d42f9-4482-48dc-be86-6dca04322e57)
+  )
+  (wire (pts (xy 107.95 75.565) (xy 121.92 75.565))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid a803ba67-c0c6-434b-adde-cc8899f7611a)
   )
   (wire (pts (xy 147.955 129.54) (xy 150.495 129.54))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -450,6 +454,10 @@
   (wire (pts (xy 107.95 160.02) (xy 121.285 160.02))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid ebea362f-6312-47a1-9b86-93fb3771d9dd)
+  )
+  (wire (pts (xy 147.955 65.405) (xy 159.385 65.405))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid ebffc2a1-d81f-46a9-9f45-b6cac2cfe81c)
   )
   (wire (pts (xy 59.69 158.115) (xy 71.755 158.115))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -716,7 +724,7 @@
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 06e5b0ba-3c8a-44e1-803a-619899eaa2d0)
-    (property "Sheet name" "Buffer" (id 0) (at 121.92 24.0534 0)
+    (property "Sheet name" "Pump buffer" (id 0) (at 121.92 24.0534 0)
       (effects (font (size 2.54 2.54) bold) (justify left bottom))
     )
     (property "Sheet file" "buffer.kicad_sch" (id 1) (at 121.92 51.3846 0)
@@ -832,6 +840,22 @@
     )
   )
 
+  (sheet (at 159.385 61.595) (size 30.48 7.62) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3870e655-afbd-4026-8dca-37dbcc0f0a3e)
+    (property "Sheet name" "Valve A" (id 0) (at 159.385 60.2484 0)
+      (effects (font (size 2.54 2.54) bold) (justify left bottom))
+    )
+    (property "Sheet file" "pumps.kicad_sch" (id 1) (at 159.385 69.7996 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "ENABLE" input (at 159.385 65.405 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 1cb6de2b-7ab6-46b3-825d-c352002330b2)
+    )
+  )
+
   (sheet (at 29.21 79.375) (size 30.48 26.67) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -881,22 +905,6 @@
     (pin "SDA2" bidirectional (at 29.21 94.615 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 68b27108-4ced-4b4f-a498-6285c7735289)
-    )
-  )
-
-  (sheet (at 121.285 60.96) (size 26.67 8.255) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid 4f479ba0-2e12-436e-9929-9f179348d9cc)
-    (property "Sheet name" "Valve A" (id 0) (at 121.285 59.6134 0)
-      (effects (font (size 2.54 2.54) bold) (justify left bottom))
-    )
-    (property "Sheet file" "solenoids.kicad_sch" (id 1) (at 121.285 69.7996 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "ENABLE" input (at 121.285 65.405 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 3e5237d8-d120-4057-8ce8-f77743182ce1)
     )
   )
 
@@ -1042,7 +1050,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid d2d4762b-4002-43b8-9c13-568580e74979)
     )
-    (pin "VALVE_A" output (at 107.95 65.405 0)
+    (pin "VALVE_A" output (at 107.95 73.025 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 0ef2621d-d8a9-470f-92c5-17a15dba881b)
     )
@@ -1054,7 +1062,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 87e02056-778f-497e-aca1-f77d6a26862b)
     )
-    (pin "VALVE_B" output (at 107.95 83.82 0)
+    (pin "VALVE_B" output (at 107.95 75.565 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 544550d8-f09c-41ff-9d63-8334a5a7207d)
     )
@@ -1144,19 +1152,31 @@
     )
   )
 
-  (sheet (at 121.285 80.01) (size 26.67 7.62) (fields_autoplaced)
+  (sheet (at 121.92 61.595) (size 26.035 25.4) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
-    (uuid d47fa919-cc40-4657-a812-8ff93e0fa61d)
-    (property "Sheet name" "Valve B" (id 0) (at 121.285 78.6634 0)
+    (uuid cf81bf2e-e009-4014-ac5b-b7a871f90ad6)
+    (property "Sheet name" "Valve buffer" (id 0) (at 121.92 60.2484 0)
       (effects (font (size 2.54 2.54) bold) (justify left bottom))
     )
-    (property "Sheet file" "solenoids.kicad_sch" (id 1) (at 121.285 88.2146 0)
+    (property "Sheet file" "buffer.kicad_sch" (id 1) (at 121.92 87.5796 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "ENABLE" input (at 121.285 83.82 180)
+    (pin "OUT_A" input (at 147.955 65.405 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid d7087798-e511-40d7-b46d-a94861855c57)
+    )
+    (pin "OUT_B" input (at 147.955 83.185 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 3d4f05e9-5a23-4413-94c4-f666a3b5bf1a)
+    )
+    (pin "IN_A" input (at 121.92 73.025 180)
       (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 34cc7b01-4ed2-4835-bedb-0874cb9fd593)
+      (uuid e132a4ba-5964-4a95-8130-6c22cd56ca7a)
+    )
+    (pin "IN_B" input (at 121.92 75.565 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 1e60e8f8-7689-43bb-b9b4-6e4f2a626b62)
     )
   )
 
@@ -1196,6 +1216,22 @@
     )
   )
 
+  (sheet (at 159.385 78.74) (size 30.48 8.255) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid ff72e127-77ad-4ac4-98a8-65bc8a41dcd6)
+    (property "Sheet name" "Valve B" (id 0) (at 159.385 77.3934 0)
+      (effects (font (size 2.54 2.54) bold) (justify left bottom))
+    )
+    (property "Sheet file" "pumps.kicad_sch" (id 1) (at 159.385 87.5796 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "ENABLE" input (at 159.385 83.185 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 5a046fee-64c1-47cc-9340-8b9db81e0b54)
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
     (path "/7451b511-52df-4ce8-be02-a648b8918dc5" (page "2"))
@@ -1208,11 +1244,12 @@
     (path "/06e5b0ba-3c8a-44e1-803a-619899eaa2d0" (page "9"))
     (path "/7714833a-1612-4d6c-93b2-2eddf16013ae" (page "10"))
     (path "/f64cb091-ee58-4922-ad69-e2640bf2e714" (page "11"))
-    (path "/4f479ba0-2e12-436e-9929-9f179348d9cc" (page "12"))
-    (path "/d47fa919-cc40-4657-a812-8ff93e0fa61d" (page "13"))
+    (path "/cf81bf2e-e009-4014-ac5b-b7a871f90ad6" (page "12"))
+    (path "/3870e655-afbd-4026-8dca-37dbcc0f0a3e" (page "13"))
     (path "/c575deae-8ced-46f2-bc3a-3b628629a6b2" (page "14"))
     (path "/05e5c053-297f-413a-9bc6-84d4e29b0d61" (page "15"))
     (path "/1af6990b-3ebc-4a0b-a22e-e64f28b4c017" (page "16"))
+    (path "/ff72e127-77ad-4ac4-98a8-65bc8a41dcd6" (page "17"))
   )
 
   (symbol_instances
@@ -1227,12 +1264,6 @@
     )
     (path "/aa8143aa-2883-4d76-a29f-9f8c766e6074/060c3cfe-79e7-4e88-93de-460dd05c517b"
       (reference "#PWR02") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/4f479ba0-2e12-436e-9929-9f179348d9cc/8643ea05-912c-44e8-9b55-63bc8545eb5c"
-      (reference "#PWR03") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/d47fa919-cc40-4657-a812-8ff93e0fa61d/8643ea05-912c-44e8-9b55-63bc8545eb5c"
-      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
     )
     (path "/c40d0cb3-ff1e-4a7f-bce5-cffa0feb1950"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
@@ -1432,16 +1463,19 @@
     (path "/f64cb091-ee58-4922-ad69-e2640bf2e714/acbcbbeb-49c0-461e-a008-a65fbbc416a1"
       (reference "#PWR01102") (unit 1) (value "GND") (footprint "")
     )
-    (path "/4f479ba0-2e12-436e-9929-9f179348d9cc/e0e5771a-dcaf-404f-81a6-d8098c101fb6"
-      (reference "#PWR01201") (unit 1) (value "+24V") (footprint "")
+    (path "/cf81bf2e-e009-4014-ac5b-b7a871f90ad6/c3c55ba0-c95f-4af9-b6fc-88e4400af1fa"
+      (reference "#PWR01201") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/4f479ba0-2e12-436e-9929-9f179348d9cc/b05b0732-6673-4190-8eae-84824afb631f"
+    (path "/cf81bf2e-e009-4014-ac5b-b7a871f90ad6/afea4d34-d272-45ae-b3b8-a895b813922e"
       (reference "#PWR01202") (unit 1) (value "GND") (footprint "")
     )
-    (path "/d47fa919-cc40-4657-a812-8ff93e0fa61d/e0e5771a-dcaf-404f-81a6-d8098c101fb6"
+    (path "/cf81bf2e-e009-4014-ac5b-b7a871f90ad6/d591a77d-8c23-439a-be91-1abbb7fc13ed"
+      (reference "#PWR01203") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/3870e655-afbd-4026-8dca-37dbcc0f0a3e/e71753d4-32fb-4f88-a609-0db05be8445b"
       (reference "#PWR01301") (unit 1) (value "+24V") (footprint "")
     )
-    (path "/d47fa919-cc40-4657-a812-8ff93e0fa61d/b05b0732-6673-4190-8eae-84824afb631f"
+    (path "/3870e655-afbd-4026-8dca-37dbcc0f0a3e/acbcbbeb-49c0-461e-a008-a65fbbc416a1"
       (reference "#PWR01302") (unit 1) (value "GND") (footprint "")
     )
     (path "/c575deae-8ced-46f2-bc3a-3b628629a6b2/6faa64de-3a03-4a48-97ff-97e7d4db12b1"
@@ -1543,6 +1577,12 @@
     (path "/1af6990b-3ebc-4a0b-a22e-e64f28b4c017/cdd2ee5d-bb8f-455c-9121-1335c4d2a2b7"
       (reference "#PWR01611") (unit 1) (value "GND") (footprint "")
     )
+    (path "/ff72e127-77ad-4ac4-98a8-65bc8a41dcd6/e71753d4-32fb-4f88-a609-0db05be8445b"
+      (reference "#PWR01701") (unit 1) (value "+24V") (footprint "")
+    )
+    (path "/ff72e127-77ad-4ac4-98a8-65bc8a41dcd6/acbcbbeb-49c0-461e-a008-a65fbbc416a1"
+      (reference "#PWR01702") (unit 1) (value "GND") (footprint "")
+    )
     (path "/7451b511-52df-4ce8-be02-a648b8918dc5/308db9c0-126b-4e22-81d7-718bb5c452f5"
       (reference "C201") (unit 1) (value "100n") (footprint "winterbloom:C_0603_HandSolder")
     )
@@ -1636,17 +1676,8 @@
     (path "/06e5b0ba-3c8a-44e1-803a-619899eaa2d0/fba9a5c8-90e6-46b4-83d2-91996442e0d0"
       (reference "C901") (unit 1) (value "100n") (footprint "winterbloom:C_0402_HandSolder")
     )
-    (path "/4f479ba0-2e12-436e-9929-9f179348d9cc/7b73f5ef-4529-43aa-b139-5be31dcdda38"
-      (reference "C1201") (unit 1) (value "4u7") (footprint "winterbloom:C_0603_HandSolder")
-    )
-    (path "/4f479ba0-2e12-436e-9929-9f179348d9cc/e48923fe-8c3f-48d0-8d4e-017d6b86d637"
-      (reference "C1202") (unit 1) (value "100n") (footprint "winterbloom:C_0603_HandSolder")
-    )
-    (path "/d47fa919-cc40-4657-a812-8ff93e0fa61d/7b73f5ef-4529-43aa-b139-5be31dcdda38"
-      (reference "C1301") (unit 1) (value "4u7") (footprint "winterbloom:C_0603_HandSolder")
-    )
-    (path "/d47fa919-cc40-4657-a812-8ff93e0fa61d/e48923fe-8c3f-48d0-8d4e-017d6b86d637"
-      (reference "C1302") (unit 1) (value "100n") (footprint "winterbloom:C_0603_HandSolder")
+    (path "/cf81bf2e-e009-4014-ac5b-b7a871f90ad6/fba9a5c8-90e6-46b4-83d2-91996442e0d0"
+      (reference "C1201") (unit 1) (value "100n") (footprint "winterbloom:C_0402_HandSolder")
     )
     (path "/c575deae-8ced-46f2-bc3a-3b628629a6b2/1e1cd4dc-7f71-4861-8390-28ccf1316fdb"
       (reference "C1401") (unit 1) (value "22n") (footprint "winterbloom:C_0603_HandSolder")
@@ -1825,17 +1856,17 @@
     (path "/f64cb091-ee58-4922-ad69-e2640bf2e714/2c35f86e-802d-40af-85be-19c4981a841f"
       (reference "D1102") (unit 1) (value "PMEG3030EP") (footprint "winterbloom:D_SOD-128")
     )
-    (path "/4f479ba0-2e12-436e-9929-9f179348d9cc/7af23218-5727-4fee-a896-978686a8b287"
-      (reference "D1201") (unit 1) (value "On") (footprint "winterbloom:LED_0805_Kingbright_APT2012")
-    )
-    (path "/4f479ba0-2e12-436e-9929-9f179348d9cc/d128f24e-0090-47d3-8991-353ca621607b"
-      (reference "D1202") (unit 1) (value "PMEG3030EP") (footprint "winterbloom:D_SOD-128")
-    )
-    (path "/d47fa919-cc40-4657-a812-8ff93e0fa61d/7af23218-5727-4fee-a896-978686a8b287"
+    (path "/3870e655-afbd-4026-8dca-37dbcc0f0a3e/03dd81aa-88e6-4186-9c0b-cce1e2aa252b"
       (reference "D1301") (unit 1) (value "On") (footprint "winterbloom:LED_0805_Kingbright_APT2012")
     )
-    (path "/d47fa919-cc40-4657-a812-8ff93e0fa61d/d128f24e-0090-47d3-8991-353ca621607b"
+    (path "/3870e655-afbd-4026-8dca-37dbcc0f0a3e/2c35f86e-802d-40af-85be-19c4981a841f"
       (reference "D1302") (unit 1) (value "PMEG3030EP") (footprint "winterbloom:D_SOD-128")
+    )
+    (path "/ff72e127-77ad-4ac4-98a8-65bc8a41dcd6/03dd81aa-88e6-4186-9c0b-cce1e2aa252b"
+      (reference "D1701") (unit 1) (value "On") (footprint "winterbloom:LED_0805_Kingbright_APT2012")
+    )
+    (path "/ff72e127-77ad-4ac4-98a8-65bc8a41dcd6/2c35f86e-802d-40af-85be-19c4981a841f"
+      (reference "D1702") (unit 1) (value "PMEG3030EP") (footprint "winterbloom:D_SOD-128")
     )
     (path "/7451b511-52df-4ce8-be02-a648b8918dc5/ce96331f-562d-4191-ac9d-42584678a6db"
       (reference "F201") (unit 1) (value "Fuse") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
@@ -1930,11 +1961,8 @@
     (path "/f64cb091-ee58-4922-ad69-e2640bf2e714/6b714c14-28e7-494d-b5f6-2e684c3ce9f2"
       (reference "J1101") (unit 1) (value "Pump") (footprint "winterbloom:TerminalBlock_4UCON_1x02_P3.50mm_Horizontal")
     )
-    (path "/4f479ba0-2e12-436e-9929-9f179348d9cc/19af2e72-2d20-4575-ae9e-7fb983265c26"
-      (reference "J1201") (unit 1) (value "Valve") (footprint "winterbloom:TerminalBlock_4UCON_1x02_P3.50mm_Horizontal")
-    )
-    (path "/d47fa919-cc40-4657-a812-8ff93e0fa61d/19af2e72-2d20-4575-ae9e-7fb983265c26"
-      (reference "J1301") (unit 1) (value "Valve") (footprint "winterbloom:TerminalBlock_4UCON_1x02_P3.50mm_Horizontal")
+    (path "/3870e655-afbd-4026-8dca-37dbcc0f0a3e/6b714c14-28e7-494d-b5f6-2e684c3ce9f2"
+      (reference "J1301") (unit 1) (value "Pump") (footprint "winterbloom:TerminalBlock_4UCON_1x02_P3.50mm_Horizontal")
     )
     (path "/c575deae-8ced-46f2-bc3a-3b628629a6b2/a8b262bb-f4e2-450c-b7f7-b4e764fc78f2"
       (reference "J1401") (unit 1) (value "Motor") (footprint "winterbloom:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical")
@@ -1945,6 +1973,9 @@
     (path "/1af6990b-3ebc-4a0b-a22e-e64f28b4c017/a8b262bb-f4e2-450c-b7f7-b4e764fc78f2"
       (reference "J1601") (unit 1) (value "Motor") (footprint "winterbloom:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical")
     )
+    (path "/ff72e127-77ad-4ac4-98a8-65bc8a41dcd6/6b714c14-28e7-494d-b5f6-2e684c3ce9f2"
+      (reference "J1701") (unit 1) (value "Pump") (footprint "winterbloom:TerminalBlock_4UCON_1x02_P3.50mm_Horizontal")
+    )
     (path "/7451b511-52df-4ce8-be02-a648b8918dc5/5be6f9be-56df-4e37-8044-89173d17a674"
       (reference "Q201") (unit 1) (value "DMP3037LSS-13") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
@@ -1953,6 +1984,12 @@
     )
     (path "/f64cb091-ee58-4922-ad69-e2640bf2e714/fde30968-7789-4997-aefb-f636b4723268"
       (reference "Q1101") (unit 1) (value "BUK9Y40-55B") (footprint "Package_TO_SOT_SMD:LFPAK56")
+    )
+    (path "/3870e655-afbd-4026-8dca-37dbcc0f0a3e/fde30968-7789-4997-aefb-f636b4723268"
+      (reference "Q1301") (unit 1) (value "BUK9Y40-55B") (footprint "Package_TO_SOT_SMD:LFPAK56")
+    )
+    (path "/ff72e127-77ad-4ac4-98a8-65bc8a41dcd6/fde30968-7789-4997-aefb-f636b4723268"
+      (reference "Q1701") (unit 1) (value "BUK9Y40-55B") (footprint "Package_TO_SOT_SMD:LFPAK56")
     )
     (path "/7451b511-52df-4ce8-be02-a648b8918dc5/d63fea5f-8835-4110-96ef-5fede0697a02"
       (reference "R201") (unit 1) (value "47k") (footprint "winterbloom:R_0402_HandSolder")
@@ -2089,22 +2126,19 @@
     (path "/f64cb091-ee58-4922-ad69-e2640bf2e714/d739a027-19a9-488b-b4d6-a6d57b0fc2e6"
       (reference "R1103") (unit 1) (value "5k1") (footprint "winterbloom:R_0402_HandSolder")
     )
-    (path "/4f479ba0-2e12-436e-9929-9f179348d9cc/a8af84d0-738c-40d4-9623-7232fc6f1f5f"
-      (reference "R1201") (unit 1) (value "0R") (footprint "winterbloom:R_0402_HandSolder")
+    (path "/cf81bf2e-e009-4014-ac5b-b7a871f90ad6/14ad8f0f-45ae-4091-8d2c-7f254c5addc5"
+      (reference "R1201") (unit 1) (value "10k") (footprint "winterbloom:R_0402_HandSolder")
     )
-    (path "/4f479ba0-2e12-436e-9929-9f179348d9cc/c5da43f4-05c9-4747-aabc-3d8a72ba3fa7"
-      (reference "R1202") (unit 1) (value "47k") (footprint "winterbloom:R_0402_HandSolder")
+    (path "/cf81bf2e-e009-4014-ac5b-b7a871f90ad6/d68f376f-d6d9-4dad-ac86-fbc76e6dd02b"
+      (reference "R1202") (unit 1) (value "10k") (footprint "winterbloom:R_0402_HandSolder")
     )
-    (path "/4f479ba0-2e12-436e-9929-9f179348d9cc/f3a66377-f629-4e29-bf9a-89a0af71ff72"
-      (reference "R1203") (unit 1) (value "5k1") (footprint "winterbloom:R_0402_HandSolder")
+    (path "/3870e655-afbd-4026-8dca-37dbcc0f0a3e/0cd3bd17-be81-49d2-bfa6-11f12dcb6eed"
+      (reference "R1301") (unit 1) (value "100k") (footprint "winterbloom:R_0402_HandSolder")
     )
-    (path "/d47fa919-cc40-4657-a812-8ff93e0fa61d/a8af84d0-738c-40d4-9623-7232fc6f1f5f"
-      (reference "R1301") (unit 1) (value "0R") (footprint "winterbloom:R_0402_HandSolder")
+    (path "/3870e655-afbd-4026-8dca-37dbcc0f0a3e/cd09a7f2-f89c-4d59-8c2d-70c6fdc65cc9"
+      (reference "R1302") (unit 1) (value "1k") (footprint "winterbloom:R_0402_HandSolder")
     )
-    (path "/d47fa919-cc40-4657-a812-8ff93e0fa61d/c5da43f4-05c9-4747-aabc-3d8a72ba3fa7"
-      (reference "R1302") (unit 1) (value "47k") (footprint "winterbloom:R_0402_HandSolder")
-    )
-    (path "/d47fa919-cc40-4657-a812-8ff93e0fa61d/f3a66377-f629-4e29-bf9a-89a0af71ff72"
+    (path "/3870e655-afbd-4026-8dca-37dbcc0f0a3e/d739a027-19a9-488b-b4d6-a6d57b0fc2e6"
       (reference "R1303") (unit 1) (value "5k1") (footprint "winterbloom:R_0402_HandSolder")
     )
     (path "/c575deae-8ced-46f2-bc3a-3b628629a6b2/a89698fa-422a-450c-b97a-3bdb233fdfa6"
@@ -2133,6 +2167,15 @@
     )
     (path "/1af6990b-3ebc-4a0b-a22e-e64f28b4c017/020113d0-fd9a-4920-93c1-2fe21a2dc029"
       (reference "R1603") (unit 1) (value "120m") (footprint "winterbloom:R_1206_HandSolder")
+    )
+    (path "/ff72e127-77ad-4ac4-98a8-65bc8a41dcd6/0cd3bd17-be81-49d2-bfa6-11f12dcb6eed"
+      (reference "R1701") (unit 1) (value "100k") (footprint "winterbloom:R_0402_HandSolder")
+    )
+    (path "/ff72e127-77ad-4ac4-98a8-65bc8a41dcd6/cd09a7f2-f89c-4d59-8c2d-70c6fdc65cc9"
+      (reference "R1702") (unit 1) (value "1k") (footprint "winterbloom:R_0402_HandSolder")
+    )
+    (path "/ff72e127-77ad-4ac4-98a8-65bc8a41dcd6/d739a027-19a9-488b-b4d6-a6d57b0fc2e6"
+      (reference "R1703") (unit 1) (value "5k1") (footprint "winterbloom:R_0402_HandSolder")
     )
     (path "/c575deae-8ced-46f2-bc3a-3b628629a6b2/af925c91-4c89-4543-b95e-8ddf4b66a5a1"
       (reference "RV1401") (unit 1) (value "MOV") (footprint "winterbloom:R_0603_HandSolder")
@@ -2209,11 +2252,8 @@
     (path "/06e5b0ba-3c8a-44e1-803a-619899eaa2d0/c566a489-7b12-4b3a-85cd-ab395672f434"
       (reference "U901") (unit 1) (value "74HC2G34") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
     )
-    (path "/4f479ba0-2e12-436e-9929-9f179348d9cc/6b43061d-f39e-4392-a3bc-a8f9105b6126"
-      (reference "U1201") (unit 1) (value "DRV120PWR") (footprint "Package_SO:TSSOP-8_4.4x3mm_P0.65mm")
-    )
-    (path "/d47fa919-cc40-4657-a812-8ff93e0fa61d/6b43061d-f39e-4392-a3bc-a8f9105b6126"
-      (reference "U1301") (unit 1) (value "DRV120PWR") (footprint "Package_SO:TSSOP-8_4.4x3mm_P0.65mm")
+    (path "/cf81bf2e-e009-4014-ac5b-b7a871f90ad6/c566a489-7b12-4b3a-85cd-ab395672f434"
+      (reference "U1201") (unit 1) (value "74HC2G34") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
     )
     (path "/c575deae-8ced-46f2-bc3a-3b628629a6b2/5c369e0c-c0ae-4337-bbb9-48afcf7d259f"
       (reference "U1401") (unit 1) (value "TMC2209") (footprint "winterbloom:TMC2209-LA")

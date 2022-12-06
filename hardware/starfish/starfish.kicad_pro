@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.5
+          "min_clearance": 0.254
         }
       },
       "diff_pair_dimensions": [
@@ -557,7 +557,7 @@
     ],
     [
       "06e5b0ba-3c8a-44e1-803a-619899eaa2d0",
-      "Buffer"
+      "Pump buffer"
     ],
     [
       "7714833a-1612-4d6c-93b2-2eddf16013ae",
@@ -568,12 +568,12 @@
       "Pump B"
     ],
     [
-      "4f479ba0-2e12-436e-9929-9f179348d9cc",
-      "Valve A"
+      "cf81bf2e-e009-4014-ac5b-b7a871f90ad6",
+      "Valve buffer"
     ],
     [
-      "d47fa919-cc40-4657-a812-8ff93e0fa61d",
-      "Valve B"
+      "3870e655-afbd-4026-8dca-37dbcc0f0a3e",
+      "Valve A"
     ],
     [
       "c575deae-8ced-46f2-bc3a-3b628629a6b2",
@@ -586,6 +586,10 @@
     [
       "1af6990b-3ebc-4a0b-a22e-e64f28b4c017",
       "Y2 Motor"
+    ],
+    [
+      "ff72e127-77ad-4ac4-98a8-65bc8a41dcd6",
+      "Valve B"
     ]
   ],
   "text_variables": {}
