@@ -6,8 +6,8 @@
 
   (title_block
     (title "Starfish")
-    (date "2022-12-06")
-    (rev "v1")
+    (date "2022-12-18")
+    (rev "v2")
     (company "Winterbloom")
     (comment 1 "Alethea Flowers")
     (comment 2 "CERN-OHL-S V2")

@@ -6,8 +6,8 @@
 
   (title_block
     (title "Starfish")
-    (date "2022-12-06")
-    (rev "v1")
+    (date "2022-12-18")
+    (rev "v2")
     (company "Winterbloom")
     (comment 1 "Alethea Flowers")
     (comment 2 "CERN-OHL-S V2")
@@ -1280,6 +1280,9 @@
     (path "/a8703f25-ebf3-4ebb-9c30-d8f45de88c33"
       (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
     )
+    (path "/c64b48c7-9452-4262-b23b-d6ff007e6a56/1db429c7-dbb3-4b5e-8d6d-1040ea9ac6c4"
+      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
+    )
     (path "/7451b511-52df-4ce8-be02-a648b8918dc5/e254dffe-51df-4911-95bf-5f71b4958162"
       (reference "#PWR0201") (unit 1) (value "GND") (footprint "")
     )
@@ -1435,12 +1438,6 @@
     )
     (path "/c64b48c7-9452-4262-b23b-d6ff007e6a56/0613208f-c881-4a11-b6db-8e720c30e358"
       (reference "#PWR0803") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/c64b48c7-9452-4262-b23b-d6ff007e6a56/f7fdca22-2762-40a1-a471-ed764691b17d"
-      (reference "#PWR0804") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/c64b48c7-9452-4262-b23b-d6ff007e6a56/73fe3a39-5e5c-46a9-b178-b51a1d990f1d"
-      (reference "#PWR0805") (unit 1) (value "GND") (footprint "")
     )
     (path "/06e5b0ba-3c8a-44e1-803a-619899eaa2d0/c3c55ba0-c95f-4af9-b6fc-88e4400af1fa"
       (reference "#PWR0901") (unit 1) (value "+5V") (footprint "")
@@ -1844,6 +1841,9 @@
     (path "/083febe4-82c8-4050-9fef-44dec251aaa3/1acc9912-e984-466b-b900-4687111fc0cd"
       (reference "D406") (unit 1) (value "USB") (footprint "winterbloom:LED_0805_Kingbright_APT2012")
     )
+    (path "/c64b48c7-9452-4262-b23b-d6ff007e6a56/046950c7-2689-428f-b129-196487048c54"
+      (reference "D801") (unit 1) (value "SM712") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
     (path "/7714833a-1612-4d6c-93b2-2eddf16013ae/03dd81aa-88e6-4186-9c0b-cce1e2aa252b"
       (reference "D1001") (unit 1) (value "On") (footprint "winterbloom:LED_0805_Kingbright_APT2012")
     )
@@ -1952,8 +1952,8 @@
     (path "/083febe4-82c8-4050-9fef-44dec251aaa3/4a41ea42-7926-40cb-acae-09e600437c43"
       (reference "J407") (unit 1) (value "USB B") (footprint "winterbloom:USB_B_Receptacle_Horizontal")
     )
-    (path "/c64b48c7-9452-4262-b23b-d6ff007e6a56/c9b01518-beaf-415f-a064-eeca08e639e7"
-      (reference "J801") (unit 1) (value "Feeders") (footprint "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical")
+    (path "/c64b48c7-9452-4262-b23b-d6ff007e6a56/69f6775d-65ab-45d9-9526-f801b092f845"
+      (reference "J801") (unit 1) (value "RS-485") (footprint "winterbloom:TerminalBlock_4UCON_1x02_P3.50mm_Horizontal")
     )
     (path "/7714833a-1612-4d6c-93b2-2eddf16013ae/6b714c14-28e7-494d-b5f6-2e684c3ce9f2"
       (reference "J1001") (unit 1) (value "Pump") (footprint "winterbloom:TerminalBlock_4UCON_1x02_P3.50mm_Horizontal")
